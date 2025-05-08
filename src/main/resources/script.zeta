@@ -1,0 +1,13 @@
+fn zobe:
+{
+  print "zobreeee!";
+}
+
+fn sayHello:
+[
+  ~param(String) as name;
+  ~param(Int) as age = 10 if age > 0;
+]
+{
+  print "hi" , name;
+}
