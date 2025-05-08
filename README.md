@@ -38,3 +38,21 @@ fn sayHello:
 }
 
 ```
+
+# Output
+
+```py
+-----------------------------------
+Function name: zobe
+Body:
+  print "zobreeee!";
+
+-----------------------------------
+Function name: sayHello
+Param(name=name, type=String, default=null, condition=null)
+Param(name=age, type=Int, default=10, condition=age > 0)
+Body:
+  print "hi" , name;
+
+-----------------------------------
+```
