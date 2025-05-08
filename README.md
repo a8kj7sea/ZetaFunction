@@ -11,6 +11,9 @@ The **Zeta Function** is part of an experimental design aimed at studying functi
 * **Parameter Pre-Conditions**:
   Zeta functions support defining pre-conditions for parameters, such as validating numeric ranges or checking text values. This design is somewhat inspired by SQL-like constraint mechanisms.
 
+* **Default value**:
+  Parameters can be assigned default values, allowing functions to be called with fewer arguments while maintaining flexibility.
+
 * **Separated Syntax**:
   The function syntax separates the parameters from the body, which results in a slightly more verbose structure, but it is more readable and beginner-friendly.
 
